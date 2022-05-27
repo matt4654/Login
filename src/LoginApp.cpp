@@ -4,7 +4,7 @@ namespace Login
 {
     void LoginApp::Run()
     {
-        while(true)
+        while(UserInterface.Active)
         {
             UserInterface.MainMenu();
         }

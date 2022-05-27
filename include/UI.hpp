@@ -8,6 +8,7 @@ namespace Login
     class UI : public Functionality
     {
         public:
+            bool Active = true;
             std::pair<std::string, std::string> ReceiveCredentials();
             void MainMenu();
             void UserLogin();
